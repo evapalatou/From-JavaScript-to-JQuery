@@ -24,15 +24,16 @@
  // Get the HTML contained within an element called `body`
  $("body").html();
  
- // Add a h1 to the `body` element
- $("body").html("<h1>This is my fancy new content. Thanks jQuery, you're the best!</h1>");
+ // Add a h1 to the `footer` element
+ //$("body").html("<h1>This is my fancy new content. Thanks jQuery, you're the best!</h1>");
+ $("#my_footer").html("<h1>This is my fancy new text. Thanks jQuery, you're the best!</h1>");
  
  // Add new text to the footer
- $("#my_footer").text("This is my fancy new text. Thanks again jQuery");
+ $("#my_footer").text("This is my fancy new text. Thanks jQuery!");
  
  // Append a new element to the end of all of the elements contained in the
  // element that has an ID of `myElement`
  $("#myElement").append("<p>This is a new element</p>");
  
  // Append a span containing the copyright to the footer 
- $("my_footer").append("<span>&copy; 2017.</span>")
+ $("#my_footer").append("<span>&copy; 2017.</span>");
